@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  background-color: #f45252;
+  align-content: center;
+  margin-left:15% ;
+  margin-right: 15%;
+   border-radius: 20px;
+  padding: 20px 0;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+  max-width: 1200px;
+}
+.navbar ul li {
+  margin: 0 15px; 
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+.navbar ul li a:hover {
+  background-color: white;
+  border-radius: 5px;
+}
