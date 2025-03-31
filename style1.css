@@ -1,0 +1,64 @@
+.logo {
+  max-width: 100%;
+  height: auto;
+  max-height: 80px;
+  transition: transform 0.3s ease;
+  margin-left: 10px;
+  margin-right: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid black;
+
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+.website-title{
+  font-family: Lucida Calligraphy;
+  text-align: center;
+  font-size: 60px;
+}
+.website-title:hover {
+    color: goldenrod; 
+    cursor: pointer; 
+    transform: scale(1.1); 
+    transition: all 0.3s ease; 
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    letter-spacing: 3px; 
+}
+.image {
+  overflow: hidden;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  border-radius: 5%;
+  align-content: last baseline;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+.table1 table, th, td {
+  border: 0px solid black;
+  border-collapse: collapse;
+  
+}
+.luxury-heading {
+  font-family: 'Georgia', serif; 
+  font-size: 48px;
+  font-weight: bold;
+  color: #1a4d26;
+  text-align: center;
+  line-height: 1.4; 
+  letter-spacing: 2px; 
+  text-transform: uppercase;
+  margin: 50px 20px; 
+  padding: 20px; 
+  background-image: linear-gradient(45deg, rgba(240, 248, 255, 0.8), rgba(210, 180, 140, 0.8)); 
+  border-radius: 15px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease, color 0.3s ease; 
+}
+.fl:hover {
+  transform: scale(1.1);
+}
