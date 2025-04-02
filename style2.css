@@ -11,6 +11,7 @@ body {
   border-radius: 20px;
   padding: 20px 0;
   position:fixed;
+  top: 0;
 }
 
 .navbar ul {
